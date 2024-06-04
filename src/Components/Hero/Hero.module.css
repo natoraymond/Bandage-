@@ -21,7 +21,7 @@
 }
 .card1 {
     grid-row: 1 / span 2;
-    background-image: url('images/hero/imaplate.png');
+    background-image: url('images/heromain/h1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,7 +29,7 @@
 
 .card2 {
     grid-column: 2 / span 2;
-    background-image: url('images/hero/item1.png');
+    background-image: url('images/heromain/h2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,14 +37,14 @@
 
 
 .card3 {
-    background-image: url('images/hero/light.png');
+    background-image: url('images/heromain/h3.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .card4 {    
-    background-image: url('images/hero/creams.png');
+    background-image: url('images/heromain/h4.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
