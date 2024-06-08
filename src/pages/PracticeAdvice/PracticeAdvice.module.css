@@ -1,17 +1,14 @@
 .container{
-    margin-top: 10rem;
+    margin-top: 25rem;
     display:flex;
     flex-direction: column;
     align-items: center;
-  
-   
 }
 
 .topsection {
     display: flex;
     flex-direction: column;
     text-align: center;
-
 }
 
 .topsection > h6 {
@@ -39,8 +36,15 @@
             gap: 11px;
             flex-wrap: wrap;
             width: 1,083px;
-          
-          
-           
-        } 
+        }
+        
+        /* Media Queries */
+ @media only screen and (max-width: 667px) {
+    .topsection {
+        display: block;
+        flex-direction: column;
+        /* text-align: center; */
+        padding-left: 24rem;
+    }
+ }
   

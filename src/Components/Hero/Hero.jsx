@@ -1,5 +1,7 @@
 import React from 'react'
 import design from '../Hero/Hero.module.css'
+
+
 const Hero = () => {
     return (
         <div className={design.cards}>
@@ -27,7 +29,7 @@ const Hero = () => {
                 <p className={design.readmore}>Read more</p>
             </div>
         </div>
-    )
+    );
 }
 
-export default Hero
+export default Hero;

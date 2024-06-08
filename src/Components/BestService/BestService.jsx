@@ -1,8 +1,5 @@
 import React from 'react'
 import BestServiceCSS from '../../Components/BestService/BestService.module.css'
-import bookreader from '../../../public/images/bookreader.png'
-import arrowgrowth from '../../../public/images/arrowgrowth.png'
-// import carbonbook from '../../../public/images/carbonBook.png'
 
 
 const BestService = () => {
