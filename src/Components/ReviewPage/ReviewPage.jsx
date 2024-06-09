@@ -1,6 +1,12 @@
 import React from 'react'
 import styles from '../../Components/ReviewPage/ReviewPage.module.css'
 import review2 from '../../../public/images/review2.png'
+
+
+
+
+
+
 const ReviewPage = () => {
   return (
     <div className={styles.container}>

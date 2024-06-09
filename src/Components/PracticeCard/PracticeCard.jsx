@@ -4,6 +4,10 @@ import unsplasH1 from '../../../public/images/unsplasH1.png'
 import Vector from '../../../public/images/Vector.png'
 import clock from '../../../public/images/clock.png'
 import grater from '../../../public/images/grater.png'
+
+
+
+
 const PracticeCard = () => {
   return (
     <div className={partcardcss.movcard}>

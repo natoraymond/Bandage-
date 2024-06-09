@@ -9,16 +9,13 @@
     gap: 30px;
     justify-content: space-between;
     margin: 84px;
-
 }
-
 
 .right{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 438px;
-    
 }
 
 .right > h3{
@@ -70,5 +67,28 @@ color: #23A6F0;
     grid-template-columns: repeat(3, 1fr);
     margin: auto auto;
     gap: 20px;
-    
+}
+
+@media screen and (max-width: 667px) {
+    .container{
+        flex-direction: column;
+        padding: 0 48px;
+        width: 100%;
+        height: 100%;
+        padding: 80px, 0px, 80px, 4px;
+        gap: 30px;
+        margin: 84px;
+    }
+    right{
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+    .left{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto auto;
+        gap: 20px;
+        padding-right: 23rem;
+    }
 }

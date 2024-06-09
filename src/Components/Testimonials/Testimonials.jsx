@@ -1,6 +1,5 @@
 import React from 'react'
 import TestimonialsCss from '../../Components/Testimonials/Testimonials.module.css'
-import user1 from '../../../public/images/user1.png'
 
  
 const Testimonials = () => {
@@ -9,8 +8,7 @@ const Testimonials = () => {
     <div className={TestimonialsCss.container} >
       <div className={TestimonialsCss.right}>
         <h3>What they say about us</h3>
-          <img src={user1}/>
-          {/* <img src="./images/parts/media.png" alt="" /> */}
+          <img src="./images/parts/user1.png" alt="" />
           <img src="./images/star/stars.png" alt="" />
           <h6>Slate helps you see how many more days you need to work to 
            reach your financial goal.</h6>
@@ -30,7 +28,7 @@ const Testimonials = () => {
       </div>
 
     </div>
-  )
+  );
 }
 
-export default Testimonials
+export default Testimonials;
